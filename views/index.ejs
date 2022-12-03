@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="views/style.css" />
+    <title>Movie Wiz</title>
+</head>
+
+<body>
+<h1 id="title-page"> Movie Wiz</h1>
+
+
+
+
+<div id="input-boxes">
+    <form action="data.php" method="post" id="create-username">
+        <label for="username-input">Username: </label>
+        <input type="text" id="username-input" name="usename">
+
+
+    </form>
+    <form action="data.php" method="post" id="create-password">
+        <label for="password-input">  Password :  </label>
+        <input type="password" id="password-input" name="password">
+
+    </form>
+</div>
+
+<a href="views/search.ejs"><button id="select-login">Login</button></a>
+<a href="views/search.ejs"><button id="select-signup">Signup</button></a>
+
+
+<script src="jquery.js"></script>
+<script src="../scripts.js"></script>
+</body>
+</html>

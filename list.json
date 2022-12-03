@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1670033294103",
+    "name": "a",
+    "email": "a@a",
+    "password": "$2b$10$ss6K4WYn5dsfnnK23AEpoOn7G3SDaWjKbAAOk3VcRGFT4pZu.Sc/m",
+    "liked": []
+  },
+  {
+    "id": "1670034717506",
+    "name": "a",
+    "email": "a@s",
+    "password": "$2b$10$2BWTrJSntTJ6kRjAecr3f.DKrpFKUhYZkeKlNmxmSJzsg94.XV7gu"
+  },
+  {
+    "id": "1670040185611",
+    "name": "c",
+    "email": "c@c",
+    "password": "$2b$10$5x2UdJR9xKBgddlMzSOCH.PipH22nHCwQzHJBP.nuyefek8GxTbkm"
+  },
+  {
+    "id": "1670041960800",
+    "name": "ben123",
+    "email": "ben@gmail.com",
+    "password": "$2b$10$nfOl5nvfEKiNFRWb1Ln7D.p/OHBzuGLP7A2gUNaykkXdU2TgoJ4hS"
+  },
+  {
+    "id": "1670042243698",
+    "name": "ben123",
+    "email": "ben123@gmail.com",
+    "password": "$2b$10$c4PndaX.5DOtyN8RyNVqn.5DsJh0Aa50FPDn6DDqYLUxfmPqSfBpW"
+  }
+]

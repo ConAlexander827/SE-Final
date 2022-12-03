@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Wiz</title>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href=./search>Find a Movie</a></li>
+        <li><a href=./list>My Liked Movies</a></li>
+
+
+    </ul>
+</nav>
+<header>
+    <h1 id="find-movie-title">Find a Movie</h1>
+    <!--
+    <form id="find-year">
+        <label for="year-input">Year: </label>
+        <input type="text" id="year-input">
+
+    </form>
+    -->
+    <form id="genre-sel">
+        <label for="genre-selection">Genre:</label>
+
+        <select id="genre-selection">
+            <option value="action">Action</option>
+            <option value="horror">Horror</option>
+            <option value="science fiction">Science Fiction</option>
+            <option value="romance">Romance</option>
+            <option value="comedy">Comedy</option>
+            <option value="documentary">Documentary</option>
+            <option value="adventure">Adventure</option>
+            <option value="animation">Animation</option>
+            <option value="crime">Crime</option>
+            <option value="drama">Drama</option>
+            <option value="family">Family</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="history">History</option>
+            <option value="music">Music</option>
+            <option value="mystery">Mystery</option>
+            <option value="thriller">Thriller</option>
+            <option value="war">War</option>
+            <option value="western">Western</option>
+
+        </select>
+    </form>
+    <!--
+    <button id="get-search">Search</button>
+    -->
+</header>
+
+<main id="main">
+    <div class="movie">
+        <img src="https://images.unsplash.com/photo-1518173835740-f5d14111d76a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDBifHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=877&q=80"
+             alt="Image">
+        <div class="movie-info">
+            <h3>Movie Title</h3>
+        </div>
+
+    </div>
+
+
+
+</main>
+<script src="jquery.js"></script>
+<script src="../scripts.js"></script>
+</body>
+</html>
